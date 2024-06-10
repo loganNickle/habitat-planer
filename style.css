@@ -1,0 +1,48 @@
+.dropdown{
+    display: table-row;
+}
+.dropdown button{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 80px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown:hover .content{
+    display: table-row-group;
+}
+.dropdown:hover button{
+    background-color: hsl(0, 0%, 70%);
+}
+.dropdown a:hover{
+    background-color: hsl(0, 0%, 90%);
+}  
+
+
+.BaseIcons{display: none;}
+.option{display: none;}
+
+.content .buttonA :active .optionA{display: block;}
+.content .buttonB :active .optionB{display: block;}
+.content.buttonC :active  .optionC{display: block;}
+.content.buttonD :active  .optionD{display: block;}
+
+.BaseIcons{scale: 100px 100px;  border: 8px hsl(0, 0%, 0%);}
+
+
+
+
+
