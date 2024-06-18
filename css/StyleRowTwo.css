@@ -1,0 +1,544 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.dropdown-Mid{
+  display: inline-block;
+}
+.dropdown-Mid .Rooms-Mid{
+  background-color: hsl(0, 0%, 80%);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-Mid button{
+  display: table-row;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.dropdown-Mid .content-Mid{
+  display: none;
+  position: absolute;
+  background-color: hsl(0, 0%, 95%);
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown-Mid:hover .content-Mid{
+  display: block;
+}
+.dropdown-Mid:hover .Rooms-Mid{
+  background-color: hsl(0, 0%, 70%);
+}
+.dropdown-Mid button:hover{
+  background-color: hsl(0, 0%, 90%);
+} 
+
+.dropdown-1-Mid{
+  display: inline-block;
+}
+.dropdown-1-Mid .Tubes-Mid{
+  background-color: hsl(0, 0%, 80%);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-1-Mid button{
+  display: table-row;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.dropdown-1-Mid .content-1-Mid{
+  display: none;
+  position: absolute;
+  background-color: hsl(0, 0%, 95%);
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown-1-Mid:hover .content-1-Mid{
+  display: block;
+}
+.dropdown-1-Mid:hover .Tubes-Mid{
+  background-color: hsl(0, 0%, 70%);
+}
+.dropdown-1-Mid button:hover{
+  background-color: hsl(0, 0%, 90%);
+} 
+
+.dropdown-2-Mid{
+  display: inline-block;
+}
+.dropdown-2-Mid .Glass-Mid{
+  background-color: hsl(0, 0%, 80%);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-2-Mid button{
+  display: table-row;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.dropdown-2-Mid .content-2-Mid{
+  display: none;
+  position: absolute;
+  background-color: hsl(0, 0%, 95%);
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown-2-Mid:hover .content-2-Mid{
+  display: block;
+}
+.dropdown-2-Mid:hover .Glass-Mid{
+  background-color: hsl(0, 0%, 70%);
+}
+.dropdown-2-Mid button:hover{
+  background-color: hsl(0, 0%, 90%);
+}
+
+
+.dropdown-3-Mid{
+  display: inline-block;
+}
+.dropdown-3-Mid .Function-Mid{
+  background-color: hsl(0, 0%, 80%);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-3-Mid button{
+  display: table-row;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.dropdown-3-Mid .content-3-Mid{
+  display: none;
+  position: absolute;
+  background-color: hsl(0, 0%, 95%);
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown-3-Mid:hover .content-3-Mid{
+  display: block;
+}
+.dropdown-3-Mid:hover .Function-Mid{
+  background-color: hsl(0, 0%, 70%);
+}
+.dropdown-3-Mid button:hover{
+  background-color: hsl(0, 0%, 90%);
+}
+
+
+
+
+
+.dropdown-A-Mid{
+  display: inline-block;
+}
+.dropdown-A-Mid .Rooms-A-Mid{
+  background-color: hsl(0, 0%, 80%);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-A-Mid button{
+  display: table-row;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.dropdown-A-Mid .content-A-Mid{
+  display: none;
+  position: absolute;
+  background-color: hsl(0, 0%, 95%);
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown-A-Mid:hover .content-A-Mid{
+  display: block;
+}
+.dropdown-A-Mid:hover .Rooms-A-Mid{
+  background-color: hsl(0, 0%, 70%);
+}
+.dropdown-A-Mid button:hover{
+  background-color: hsl(0, 0%, 90%);
+} 
+
+.dropdown-1-A-Mid{
+  display: inline-block;
+}
+.dropdown-1-A-Mid .Tubes-A-Mid{
+  background-color: hsl(0, 0%, 80%);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-1-A-Mid button{
+  display: table-row;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.dropdown-1-A-Mid .content-1-A-Mid{
+  display: none;
+  position: absolute;
+  background-color: hsl(0, 0%, 95%);
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown-1-A-Mid:hover .content-1-A-Mid{
+  display: block;
+}
+.dropdown-1-A-Mid:hover .Tubes-A-Mid{
+  background-color: hsl(0, 0%, 70%);
+}
+.dropdown-1-A-Mid button:hover{
+  background-color: hsl(0, 0%, 90%);
+}
+
+.dropdown-2-A-Mid{
+  display: inline-block;
+}
+.dropdown-2-A-Mid .Glass-A-Mid{
+  background-color: hsl(0, 0%, 80%);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-2-A-Mid button{
+  display: table-row;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.dropdown-2-A-Mid .content-2-A-Mid{
+  display: none;
+  position: absolute;
+  background-color: hsl(0, 0%, 95%);
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown-2-A-Mid:hover .content-2-A-Mid{
+  display: block;
+}
+.dropdown-2-A-Mid:hover .Glass-A-Mid{
+  background-color: hsl(0, 0%, 70%);
+}
+.dropdown-2-A-Mid button:hover{
+  background-color: hsl(0, 0%, 90%);
+}
+
+
+.dropdown-3-A-Mid{
+  display: inline-block;
+}
+.dropdown-3-A-Mid .Function-A-Mid{
+  background-color: hsl(0, 0%, 80%);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-3-A-Mid button{
+  display: table-row;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.dropdown-3-A-Mid .content-3-A-Mid{
+  display: none;
+  position: absolute;
+  background-color: hsl(0, 0%, 95%);
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown-3-A-Mid:hover .content-3-A-Mid{
+  display: block;
+}
+.dropdown-3-A-Mid:hover .Function-A-Mid{
+  background-color: hsl(0, 0%, 70%);
+}
+.dropdown-3-A-Mid button:hover{
+  background-color: hsl(0, 0%, 90%);
+}
+
+
+
+
+.dropdown-B-Mid{
+  display: inline-block;
+}
+.dropdown-B-Mid .Rooms-B-Mid{
+  background-color: hsl(0, 0%, 80%);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-B-Mid button{
+  display: table-row;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.dropdown-B-Mid .content-B-Mid{
+  display: none;
+  position: absolute;
+  background-color: hsl(0, 0%, 95%);
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown-B-Mid:hover .content-B-Mid{
+  display: block;
+}
+.dropdown-B-Mid:hover .Rooms-B-Mid{
+  background-color: hsl(0, 0%, 70%);
+}
+.dropdown-B-Mid:hover button:hover{
+  background-color: hsl(0, 0%, 90%);
+} 
+
+.dropdown-1-B-Mid{
+  display: inline-block;
+}
+.dropdown-1-B-Mid .Tubes-B-Mid{
+  background-color: hsl(0, 0%, 80%);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-1-B-Mid button{
+  display: table-row;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.dropdown-1-B-Mid .content-1-B-Mid{
+  display: none;
+  position: absolute;
+  background-color: hsl(0, 0%, 95%);
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown-1-B-Mid:hover .content-1-B-Mid{
+  display: block;
+}
+.dropdown-1-B-Mid:hover .Tubes-B-Mid{
+  background-color: hsl(0, 0%, 70%);
+}
+.dropdown-1-B-Mid button:hover{
+  background-color: hsl(0, 0%, 90%);
+}
+
+.dropdown-2-B-Mid{
+  display: inline-block;
+}
+.dropdown-2-B-Mid .Glass-B-Mid{
+  background-color: hsl(0, 0%, 80%);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-2-B-Mid button{
+  display: table-row;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.dropdown-2-B-Mid .content-2-B-Mid{
+  display: none;
+  position: absolute;
+  background-color: hsl(0, 0%, 95%);
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown-2-B-Mid:hover .content-2-B-Mid{
+  display: block;
+}
+.dropdown-2-B-Mid:hover .Glass-B-Mid{
+  background-color: hsl(0, 0%, 70%);
+}
+.dropdown-2-B-Mid button:hover{
+  background-color: hsl(0, 0%, 90%);
+}
+
+.dropdown-3-B-Mid{
+  display: inline-block;
+}
+.dropdown-3-B-Mid .Function-B-Mid{
+  background-color: hsl(0, 0%, 80%);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-3-B-Mid button{
+  display: table-row;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.dropdown-3-B-Mid .content-3-B-Mid{
+  display: none;
+  position: absolute;
+  background-color: hsl(0, 0%, 95%);
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown-3-B-Mid:hover .content-3-B-Mid{
+  display: block;
+}
+.dropdown-3-B-Mid:hover .Function-B-Mid{
+  background-color: hsl(0, 0%, 70%);
+}
+.dropdown-3-B-Mid button:hover{
+  background-color: hsl(0, 0%, 90%);
+}  
+
+.dropdown-C-Mid{
+  display: inline-block;
+}
+.dropdown-C-Mid .Rooms-C-Mid{
+  background-color: hsl(0, 0%, 80%);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-C-Mid button{
+  display: table-row;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.dropdown-C-Mid .content-C-Mid{
+  display: none;
+  position: absolute;
+  background-color: hsl(0, 0%, 95%);
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown-C-Mid:hover .content-C-Mid{
+  display: block;
+}
+.dropdown-C-Mid:hover .Rooms-C-Mid{
+  background-color: hsl(0, 0%, 70%);
+}
+.dropdown-C-Mid:hover button:hover{
+  background-color: hsl(0, 0%, 90%);
+} 
+
+.dropdown-1-C-Mid{
+  display: inline-block;
+}
+.dropdown-1-C-Mid .Tubes-C-Mid{
+  background-color: hsl(0, 0%, 80%);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-1-C-Mid button{
+  display: table-row;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.dropdown-1-C-Mid .content-1-C-Mid{
+  display: none;
+  position: absolute;
+  background-color: hsl(0, 0%, 95%);
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown-1-C-Mid:hover .content-1-C-Mid{
+  display: block;
+}
+.dropdown-1-C-Mid:hover .Tubes-C-Mid{
+  background-color: hsl(0, 0%, 70%);
+}
+.dropdown-1-C-Mid button:hover{
+  background-color: hsl(0, 0%, 90%);
+}
+
+.dropdown-2-C-Mid{
+  display: inline-block;
+}
+.dropdown-2-C-Mid .Glass-C-Mid{
+  background-color: hsl(0, 0%, 80%);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-2-C-Mid button{
+  display: table-row;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.dropdown-2-C-Mid .content-2-C-Mid{
+  display: none;
+  position: absolute;
+  background-color: hsl(0, 0%, 95%);
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown-2-C-Mid:hover .content-2-C-Mid{
+  display: block;
+}
+.dropdown-2-C-Mid:hover .Glass-C-Mid{
+  background-color: hsl(0, 0%, 70%);
+}
+.dropdown-2-C-Mid button:hover{
+  background-color: hsl(0, 0%, 90%);
+}
+
+
+.dropdown-3-C-Mid{
+  display: inline-block;
+}
+.dropdown-3-C-Mid .Function-C-Mid{
+  background-color: hsl(0, 0%, 80%);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-3-C-Mid button{
+  display: table-row;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.dropdown-3-C-Mid .content-3-C-Mid{
+  display: none;
+  position: absolute;
+  background-color: hsl(0, 0%, 95%);
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown-3-C-Mid:hover .content-3-C-Mid{
+  display: block;
+}
+.dropdown-3-C-Mid:hover .Function-C-Mid{
+  background-color: hsl(0, 0%, 70%);
+}
+.dropdown-3-C-Mid button:hover{
+  background-color: hsl(0, 0%, 90%);
+}
+

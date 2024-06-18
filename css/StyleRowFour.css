@@ -1,0 +1,546 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  
+  .dropdown-Out{
+    display: inline-block;
+  }
+  .dropdown-Out .Rooms-Out{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-Out button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-Out .content-Out{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-Out:hover .content-Out{
+    display: block;
+  }
+  .dropdown-Out:hover .Rooms-Out{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-Out button:hover{
+    background-color: hsl(0, 0%, 90%);
+  } 
+  
+  .dropdown-1-Out{
+    display: inline-block;
+  }
+  .dropdown-1-Out .Tubes-Out{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-1-Out button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-1-Out .content-1-Out{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-1-Out:hover .content-1-Out{
+    display: block;
+  }
+  .dropdown-1-Out:hover .Tubes-Out{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-1-Out button:hover{
+    background-color: hsl(0, 0%, 90%);
+  } 
+  
+  .dropdown-2-Out{
+    display: inline-block;
+  }
+  .dropdown-2-Out .Glass-Out{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-2-Out button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-2-Out .content-2-Out{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-2-Out:hover .content-2-Out{
+    display: block;
+  }
+  .dropdown-2-Out:hover .Glass-Out{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-2-Out button:hover{
+    background-color: hsl(0, 0%, 90%);
+  }
+  
+  
+  .dropdown-3-Out{
+    display: inline-block;
+  }
+  .dropdown-3-Out .Function-Out{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-3-Out button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-3-Out .content-3-Out{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-3-Out:hover .content-3-Out{
+    display: block;
+  }
+  .dropdown-3-Out:hover .Function-Out{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-3-Out button:hover{
+    background-color: hsl(0, 0%, 90%);
+  }
+  
+  
+  
+  
+  
+  .dropdown-A-Out{
+    display: inline-block;
+  }
+  .dropdown-A-Out .Rooms-A-Out{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-A-Out button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-A-Out .content-A-Out{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-A-Out:hover .content-A-Out{
+    display: block;
+  }
+  .dropdown-A-Out:hover .Rooms-A-Out{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-A-Out button:hover{
+    background-color: hsl(0, 0%, 90%);
+  } 
+  
+  .dropdown-1-A-Out{
+    display: inline-block;
+  }
+  .dropdown-1-A-Out .Tubes-A-Out{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-1-A-Out button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-1-A-Out .content-1-A-Out{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-1-A-Out:hover .content-1-A-Out{
+    display: block;
+  }
+  .dropdown-1-A-Out:hover .Tubes-A-Out{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-1-A-Out button:hover{
+    background-color: hsl(0, 0%, 90%);
+  }
+  
+  .dropdown-2-A-Out{
+    display: inline-block;
+  }
+  .dropdown-2-A-Out .Glass-A-Out{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-2-A-Out button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-2-A-Out .content-2-A-Out{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-2-A-Out:hover .content-2-A-Out{
+    display: block;
+  }
+  .dropdown-2-A-Out:hover .Glass-A-Out{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-2-A-Out button:hover{
+    background-color: hsl(0, 0%, 90%);
+  }
+  
+  
+  .dropdown-3-A-Out{
+    display: inline-block;
+  }
+  .dropdown-3-A-Out .Function-A-Out{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-3-A-Out button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-3-A-Out .content-3-A-Out{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-3-A-Out:hover .content-3-A-Out{
+    display: block;
+  }
+  .dropdown-3-A-Out:hover .Function-A-Out{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-3-A-Out button:hover{
+    background-color: hsl(0, 0%, 90%);
+  }
+  
+  
+  
+  
+  .dropdown-B-Out{
+    display: inline-block;
+  }
+  .dropdown-B-Out .Rooms-B-Out{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-B-Out button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-B-Out .content-B-Out{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-B-Out:hover .content-B-Out{
+    display: block;
+  }
+  .dropdown-B-Out:hover .Rooms-B-Out{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-B-Out:hover button:hover{
+    background-color: hsl(0, 0%, 90%);
+  } 
+  
+  .dropdown-1-B-Out{
+    display: inline-block;
+  }
+  .dropdown-1-B-Out .Tubes-B-Out{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-1-B-Out button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-1-B-Out .content-1-B-Out{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-1-B-Out:hover .content-1-B-Out{
+    display: block;
+  }
+  .dropdown-1-B-Out:hover .Tubes-B-Out{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-1-B-Out button:hover{
+    background-color: hsl(0, 0%, 90%);
+  }
+  
+  .dropdown-2-B-Out{
+    display: inline-block;
+  }
+  .dropdown-2-B-Out .Glass-B-Out{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-2-B-Out button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-2-B-Out .content-2-B-Out{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-2-B-Out:hover .content-2-B-Out{
+    display: block;
+  }
+  .dropdown-2-B-Out:hover .Glass-B-Out{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-2-B-Out button:hover{
+    background-color: hsl(0, 0%, 90%);
+  }
+  
+  .dropdown-3-B-Out{
+    display: inline-block;
+  }
+  .dropdown-3-B-Out .Function-B-Out{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-3-B-Out button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-3-B-Out .content-3-B-Out{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-3-B-Out:hover .content-3-B-Out{
+    display: block;
+  }
+  .dropdown-3-B-Out:hover .Function-B-Out{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-3-B-Out button:hover{
+    background-color: hsl(0, 0%, 90%);
+  }  
+  
+  .dropdown-C-Out{
+    display: inline-block;
+  }
+  .dropdown-C-Out .Rooms-C-Out{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-C-Out button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-C-Out .content-C-Out{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-C-Out:hover .content-C-Out{
+    display: block;
+  }
+  .dropdown-C-Out:hover .Rooms-C-Out{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-C-Out:hover button:hover{
+    background-color: hsl(0, 0%, 90%);
+  } 
+  
+  .dropdown-1-C-Out{
+    display: inline-block;
+  }
+  .dropdown-1-C-Out .Tubes-C-Out{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-1-C-Out button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-1-C-Out .content-1-C-Out{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-1-C-Out:hover .content-1-C-Out{
+    display: block;
+  }
+  .dropdown-1-C-Out:hover .Tubes-C-Out{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-1-C-Out button:hover{
+    background-color: hsl(0, 0%, 90%);
+  }
+  
+  
+  .dropdown-2-C-Out{
+    display: inline-block;
+  }
+  .dropdown-2-C-Out .Glass-C-Out{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-2-C-Out button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-2-C-Out .content-2-C-Out{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-2-C-Out:hover .content-2-C-Out{
+    display: block;
+  }
+  .dropdown-2-C-Out:hover .Glass-C-Out{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-2-C-Out button:hover{
+    background-color: hsl(0, 0%, 90%);
+  }
+  
+  
+  .dropdown-3-C-Out{
+    display: inline-block;
+  }
+  .dropdown-3-C-Out .Function-C-Out{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-3-C-Out button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-3-C-Out .content-3-C-Out{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-3-C-Out:hover .content-3-C-Out{
+    display: block;
+  }
+  .dropdown-3-C-Out:hover .Function-C-Out{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-3-C-Out button:hover{
+    background-color: hsl(0, 0%, 90%);
+  }
+  
+  

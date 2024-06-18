@@ -1,0 +1,20 @@
+.RowOne{display: flex;flex-direction: row;
+justify-content: space-evenly
+; margin: 250px;}
+
+.RowTwo{display: flex;flex-direction: row;
+    justify-content: space-evenly
+    ; margin: 250px;}
+
+    .RowThree{display: flex;flex-direction: row;
+        justify-content: space-evenly
+        ; margin: 250px;}
+
+        .RowFour{display: flex;flex-direction: row;
+            justify-content: space-evenly
+            ; margin: 250px;}
+       
+body{background-color: blue;}
+
+.GameLink{color: black;}
+            

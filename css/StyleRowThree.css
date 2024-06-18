@@ -1,0 +1,545 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  
+  .dropdown-Inn{
+    display: inline-block;
+  }
+  .dropdown-Inn .Rooms-Inn{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-Inn button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-Inn .content-Inn{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-Inn:hover .content-Inn{
+    display: block;
+  }
+  .dropdown-Inn:hover .Rooms-Inn{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-Inn button:hover{
+    background-color: hsl(0, 0%, 90%);
+  } 
+  
+  .dropdown-1-Inn{
+    display: inline-block;
+  }
+  .dropdown-1-Inn .Tubes-Inn{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-1-Inn button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-1-Inn .content-1-Inn{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-1-Inn:hover .content-1-Inn{
+    display: block;
+  }
+  .dropdown-1-Inn:hover .Tubes-Inn{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-1-Inn button:hover{
+    background-color: hsl(0, 0%, 90%);
+  } 
+  
+  .dropdown-2-Inn{
+    display: inline-block;
+  }
+  .dropdown-2-Inn .Glass-Inn{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-2-Inn button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-2-Inn .content-2-Inn{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-2-Inn:hover .content-2-Inn{
+    display: block;
+  }
+  .dropdown-2-Inn:hover .Glass-Inn{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-2-Inn button:hover{
+    background-color: hsl(0, 0%, 90%);
+  }
+  
+  
+  .dropdown-3-Inn{
+    display: inline-block;
+  }
+  .dropdown-3-Inn .Function-Inn{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-3-Inn button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-3-Inn .content-3-Inn{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-3-Inn:hover .content-3-Inn{
+    display: block;
+  }
+  .dropdown-3-Inn:hover .Function-Inn{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-3-Inn button:hover{
+    background-color: hsl(0, 0%, 90%);
+  }
+  
+  
+  
+  
+  
+  .dropdown-A-Inn{
+    display: inline-block;
+  }
+  .dropdown-A-Inn .Rooms-A-Inn{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-A-Inn button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-A-Inn .content-A-Inn{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-A-Inn:hover .content-A-Inn{
+    display: block;
+  }
+  .dropdown-A-Inn:hover .Rooms-A-Inn{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-A-Inn button:hover{
+    background-color: hsl(0, 0%, 90%);
+  } 
+  
+  .dropdown-1-A-Inn{
+    display: inline-block;
+  }
+  .dropdown-1-A-Inn .Tubes-A-Inn{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-1-A-Inn button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-1-A-Inn .content-1-A-Inn{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-1-A-Inn:hover .content-1-A-Inn{
+    display: block;
+  }
+  .dropdown-1-A-Inn:hover .Tubes-A-Inn{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-1-A-Inn button:hover{
+    background-color: hsl(0, 0%, 90%);
+  }
+  
+  .dropdown-2-A-Inn{
+    display: inline-block;
+  }
+  .dropdown-2-A-Inn .Glass-A-Inn{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-2-A-Inn button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-2-A-Inn .content-2-A-Inn{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-2-A-Inn:hover .content-2-A-Inn{
+    display: block;
+  }
+  .dropdown-2-A-Inn:hover .Glass-A-Inn{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-2-A-Inn button:hover{
+    background-color: hsl(0, 0%, 90%);
+  }
+  
+  
+  .dropdown-3-A-Inn{
+    display: inline-block;
+  }
+  .dropdown-3-A-Inn .Function-A-Inn{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-3-A-Inn button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-3-A-Inn .content-3-A-Inn{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-3-A-Inn:hover .content-3-A-Inn{
+    display: block;
+  }
+  .dropdown-3-A-Inn:hover .Function-A-Inn{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-3-A-Inn button:hover{
+    background-color: hsl(0, 0%, 90%);
+  }
+  
+  
+  
+  
+  .dropdown-B-Inn{
+    display: inline-block;
+  }
+  .dropdown-B-Inn .Rooms-B-Inn{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-B-Inn button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-B-Inn .content-B-Inn{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-B-Inn:hover .content-B-Inn{
+    display: block;
+  }
+  .dropdown-B-Inn:hover .Rooms-B-Inn{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-B-Inn:hover button:hover{
+    background-color: hsl(0, 0%, 90%);
+  } 
+  
+  .dropdown-1-B-Inn{
+    display: inline-block;
+  }
+  .dropdown-1-B-Inn .Tubes-B-Inn{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-1-B-Inn button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-1-B-Inn .content-1-B-Inn{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-1-B-Inn:hover .content-1-B-Inn{
+    display: block;
+  }
+  .dropdown-1-B-Inn:hover .Tubes-B{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-1-B-Inn button:hover{
+    background-color: hsl(0, 0%, 90%);
+  }
+  
+  .dropdown-2-B-Inn{
+    display: inline-block;
+  }
+  .dropdown-2-B-Inn .Glass-B-Inn{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-2-B-Inn button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-2-B-Inn .content-2-B-Inn{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-2-B-Inn:hover .content-2-B-Inn{
+    display: block;
+  }
+  .dropdown-2-B-Inn:hover .Glass-B-Inn{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-2-B-Inn button:hover{
+    background-color: hsl(0, 0%, 90%);
+  }
+  
+  .dropdown-3-B-Inn{
+    display: inline-block;
+  }
+  .dropdown-3-B-Inn .Function-B-Inn{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-3-B-Inn button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-3-B-Inn .content-3-B-Inn{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-3-B-Inn:hover .content-3-B-Inn{
+    display: block;
+  }
+  .dropdown-3-B-Inn:hover .Function-B-Inn{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-3-B-Inn button:hover{
+    background-color: hsl(0, 0%, 90%);
+  }  
+  
+  .dropdown-C-Inn{
+    display: inline-block;
+  }
+  .dropdown-C-Inn .Rooms-C-Inn{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-C-Inn button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-C-Inn .content-C-Inn{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-C-Inn:hover .content-C-Inn{
+    display: block;
+  }
+  .dropdown-C-Inn:hover .Rooms-C-Inn{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-C-Inn:hover button:hover{
+    background-color: hsl(0, 0%, 90%);
+  } 
+  
+  .dropdown-1-C-Inn{
+    display: inline-block;
+  }
+  .dropdown-1-C-Inn .Tubes-C-Inn{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-1-C-Inn button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-1-C-Inn .content-1-C-Inn{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-1-C-Inn:hover .content-1-C-Inn{
+    display: block;
+  }
+  .dropdown-1-C-Inn:hover .Tubes-C-Inn{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-1-C-Inn button:hover{
+    background-color: hsl(0, 0%, 90%);
+  }
+  
+  .dropdown-2-C-Inn{
+    display: inline-block;
+  }
+  .dropdown-2-C-Inn .Glass-C-Inn{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-2-C-Inn button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-2-C-Inn .content-2-C-Inn{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-2-C-Inn:hover .content-2-C-Inn{
+    display: block;
+  }
+  .dropdown-2-C-Inn:hover .Glass-C-Inn{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-2-C-Inn button:hover{
+    background-color: hsl(0, 0%, 90%);
+  }
+  
+  
+  .dropdown-3-C-Inn{
+    display: inline-block;
+  }
+  .dropdown-3-C-Inn .Function-C-Inn{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-3-C-Inn button{
+    display: table-row;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .dropdown-3-C-Inn .content-3-C-Inn{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  }
+  .dropdown-3-C-Inn:hover .content-3-C-Inn{
+    display: block;
+  }
+  .dropdown-3-C-Inn:hover .Function-C-Inn{
+    background-color: hsl(0, 0%, 70%);
+  }
+  .dropdown-3-C-Inn button:hover{
+    background-color: hsl(0, 0%, 90%);
+  }
+  
+  

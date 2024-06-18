@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </condition>
-    
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css\GridLayout.css">
+    <link rel="stylesheet" href="css\StyleRowOne.css">
+    <link rel="stylesheet" href="css\StyleRowTwo.css">
+    <link rel="stylesheet" href="css\StyleRowThree.css">
+    <link rel="stylesheet" href="css\StyleRowFour.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head> <body>
     
-<scrip src="IconFunction.js"></script>
+
 <header>
 
     <h1>
@@ -24,18 +27,22 @@
  </header> 
  <UserGuid>
 <p>how to use? drag and drop base components from the drop down menus on to the grid rescource requriments can be seen over head 
-    use the layer tool to place components on top of each other (get the game by clicking <a class="GameLink" href="https://store.steampowered.com/app/264710/Subnautica/">
-    here</a> and click  <a href="https://www.youtube.com/watch?v=NpEaa2P7qZI">here</a> for instructional video)
-</p>
+    use the layer tool to place components on top of each other 
+    (get the game by clicking <a class="GameLink" href="https://store.steampowered.com/app/264710/Subnautica/">
+    here</a> )
  </UserGuid>
-<div class="grid">
+ <div class="Grid">
+ <scrip src="JavaScript\IconFunction.js"></script>
+
+
+<div class="RowOne">
 <div class="1x1">
-<img   src="#" id="blank" height="200px" width="200px">
+<img   src="#" id="blank" height="150px" width="150px">
 
 <div class="dropdown">
     <button class="Rooms">rooms</button>
     <div class="content">
-        <button onclick="BasicRoom"()>basic room</button>
+        <button onclick="BasicRoom()">basic room</button>
         <button onclick="LargeRoom()">large room</button>
         <button onclick="ScannerRoom()">scanner room</button>
     </div>
@@ -70,12 +77,653 @@
 
 
     </div>
+
+
+    
+    <div class="1x2">
+        <img   src="#" id="blank-1" height="150px" width="150px">
+        
+        <div class="dropdown-A">
+            <button class="Rooms-A">rooms</button>
+            <div class="content-A">
+                <button onclick="BasicRoomA()">basic room</button>
+                <button onclick="LargeRoomA()">large room</button>
+                <button onclick="ScannerRoomA()">scanner room</button>
+            </div>
+        </div> 
+        <div class="dropdown-1-A">
+            <button class="Tubes-A">tube</button>
+            <div class="content-1-A">
+               <button onclick="BasicTubeA()"> basic tube</button>
+               <button onclick="TtubeA()">T tube </button>
+               <button onclick="LtubeA()">L tube</button>
+               <button onclick="XtubeA()">X tube</button> 
+            </div>
+        </div> 
+        <div class="dropdown-2-A">
+            <button class="Glass-A">glass</button>
+            <div class="content-2-A">
+               <button></button>
+               <button onclick="ObservitoryA()">observitory</button>
+               <button onclick="GlassTubeA()">glass Ltube</button>
+               <button onclick="GlassLtubeA()">glass Ltube </button>
+            </div>
+        </div> 
+        <div class="dropdown-3-A">
+            <button class="Function-A">function</button>
+            <div class="content-3-A">
+               <button onclick="HatchA()">hatch</button>
+               <button onclick="MoonPoolA()">moon pool</button>
+               <button onclick="RienforcmentA()">hull rienforcment</button>
+               
+            </div>
+        </div>
+        
+        </div>
+        <div class="1x3">
+            <img   src="#" id="blank-2" height="150px" width="150px">
+            
+            <div class="dropdown-B">
+                <button class="Rooms-B">rooms</button>
+                <div class="content-B">
+                    <button onclick="BasicRoomB()">basic room</button>
+                    <button onclick="LargeRoomB()">large room</button>
+                    <button onclick="ScannerRoomB()">scanner room</button>
+                </div>
+            </div> 
+            <div class="dropdown-1-B">
+                <button class="Tubes-B">tube</button>
+                <div class="content-1-B">
+                   <button onclick="BasicTubeB()"> basic tube</button>
+                   <button onclick="TtubeB()">T tube </button>
+                   <button onclick="LtubeB()">L tube</button>
+                   <button onclick="XtubeB()">X tube</button> 
+                </div>
+            </div> 
+            <div class="dropdown-2-B">
+                <button class="Glass-B">glass</button>
+                <div class="content-2-B">
+                   <button></button>
+                   <button onclick="ObservitoryB()">observitory</button>
+                   <button onclick="GlassTubeB()">glass Ltube</button>
+                   <button onclick="GlassLtubeB()">glass Ltube </button>
+                </div>
+            </div> 
+            <div class="dropdown-3-B">
+                <button class="Function-B">function</button>
+                <div class="content-3-B">
+                   <button onclick="HatchB()">hatch</button>
+                   <button onclick="MoonPoolB()">moon pool</button>
+                   <button onclick="RienforcmentB()">hull rienforcment</button>
+                   
+                </div>
+            </div>
+            
+            </div>
+
+
+        
+            <div class="1x4">
+                <img   src="#" id="blank-3" height="150px" width="150px">
+                
+                <div class="dropdown-C">
+                    <button class="Rooms-C">rooms</button>
+                    <div class="content-C">
+                        <button onclick="BasicRoomC()">basic room</button>
+                        <button onclick="LargeRoomC()">large room</button>
+                        <button onclick="ScannerRoomC()">scanner room</button>
+                    </div>
+                </div> 
+                <div class="dropdown-1-C">
+                    <button class="Tubes-C">tube</button>
+                    <div class="content-1-C">
+                       <button onclick="BasicTubeC()"> basic tube</button>
+                       <button onclick="TtubeC()">T tube </button>
+                       <button onclick="LtubeC()">L tube</button>
+                       <button onclick="XtubeC()">X tube</button> 
+                    </div>
+                </div> 
+                <div class="dropdown-2-C">
+                    <button class="Glass-C">glass</button>
+                    <div class="content-2-C">
+                       <button></button>
+                       <button onclick="ObservitoryC()">observitory</button>
+                       <button onclick="GlassTubeC()">glass Ltube</button>
+                       <button onclick="GlassLtubeC()">glass Ltube </button>
+                    </div>
+                </div> 
+                <div class="dropdown-3-C">
+                    <button class="Function-C">function</button>
+                    <div class="content-3-C">
+                       <button onclick="HatchC()">hatch</button>
+                       <button onclick="MoonPoolC()">moon pool</button>
+                       <button onclick="RienforcmentC()">hull rienforcment</button>
+                       
+                    </div>
+                </div>
+                
+                </div>
+
 </div>
 
-</body>
-</html>
- 
 
 
 
 
+
+<scrip src="JavaScript\IconFunctionTwo.js"></script>
+
+    <div class="RowTwo">
+    <div class="2x1">
+    <img   src="#" id="blank-4" height="150px" width="150px">
+    
+    <div class="dropdown-Mid">
+        <button class="Rooms-Mid">rooms</button>
+        <div class="content-Mid">
+            <button onclick="BasicRoomMid()">basic room</button>
+            <button onclick="LargeRoomMid()">large room</button>
+            <button onclick="ScannerRoomMid()">scanner room</button>
+        </div>
+    </div> 
+    <div class="dropdown-1-Mid">
+        <button class="Tubes-Mid">tube</button>
+        <div class="content-1-Mid">
+           <button onclick="BasicTubeMid()"> basic tube</button>
+           <button onclick="TtubeMid()">T tube </button>
+           <button onclick="LtubeMid()">L tube</button>
+           <button onclick="XtubeMid()">X tube</button> 
+        </div>
+    </div> 
+    <div class="dropdown-2-Mid">
+        <button class="Glass-Mid">glass</button>
+        <div class="content-2-Mid">
+           <button></button>
+           <button onclick="ObservitoryMid()">observitory</button>
+           <button onclick="GlassTubeMid()">glass Ltube</button>
+           <button onclick="GlassLtubeMid()">glass Ltube </button>
+        </div>
+    </div> 
+    <div class="dropdown-3-Mid">
+        <button class="Function-Mid">function</button>
+        <div class="content-3-Mid">
+           <button onclick="HatchMid()">hatch</button>
+           <button onclick="MoonPoolMid()">moon pool</button>
+           <button onclick="RienforcmentMid()">hull rienforcment</button>
+           
+        </div>
+    </div>
+    
+    
+        </div>
+    
+    
+        
+        <div class="2x2">
+            <img   src="#" id="blank-5" height="150px" width="150px">
+            
+            <div class="dropdown-A-Mid">
+                <button class="Rooms-A-Mid">rooms</button>
+                <div class="content-A-Mid">
+                    <button onclick="BasicRoomAMid()">basic room</button>
+                    <button onclick="LargeRoomAMid()">large room</button>
+                    <button onclick="ScannerRoomAMid()">scanner room</button>
+                </div>
+            </div> 
+            <div class="dropdown-1-A-Mid">
+                <button class="Tubes-A-Mid">tube</button>
+                <div class="content-1-A-Mid">
+                   <button onclick="BasicTubeAMid()"> basic tube</button>
+                   <button onclick="TtubeAMid()">T tube </button>
+                   <button onclick="LtubeAMid()">L tube</button>
+                   <button onclick="XtubeAMid()">X tube</button> 
+                </div>
+            </div> 
+            <div class="dropdown-2-A-Mid">
+                <button class="Glass-A-Mid">glass</button>
+                <div class="content-2-A-Mid">
+                   <button></button>
+                   <button onclick="ObservitoryAMid()">observitory</button>
+                   <button onclick="GlassTubeAMid()">glass Ltube</button>
+                   <button onclick="GlassLtubeAMid()">glass Ltube </button>
+                </div>
+            </div> 
+            <div class="dropdown-3-A-Mid">
+                <button class="Function-A-Mid">function</button>
+                <div class="content-3-A-Mid">
+                   <button onclick="HatchAMid()">hatch</button>
+                   <button onclick="MoonPoolAMid()">moon pool</button>
+                   <button onclick="RienforcmentAMid()">hull rienforcment</button>
+                   
+                </div>
+            </div>
+            
+            </div>
+            <div class="2x3">
+                <img   src="#" id="blank-6" height="150px" width="150px">
+                
+                <div class="dropdown-B-Mid">
+                    <button class="Rooms-B-Mid">rooms</button>
+                    <div class="content-B-Mid">
+                        <button onclick="BasicRoomBMid()">basic room</button>
+                        <button onclick="LargeRoomBMid()">large room</button>
+                        <button onclick="ScannerRoomBMid()">scanner room</button>
+                    </div>
+                </div> 
+                <div class="dropdown-1-B-Mid">
+                    <button class="Tubes-B-Mid">tube</button>
+                    <div class="content-1-B-Mid">
+                       <button onclick="BasicTubeBMid()"> basic tube</button>
+                       <button onclick="TtubeBMid()">T tube </button>
+                       <button onclick="LtubeBMid()">L tube</button>
+                       <button onclick="XtubeBMid()">X tube</button> 
+                    </div>
+                </div> 
+                <div class="dropdown-2-B-Mid">
+                    <button class="Glass-B-Mid">glass</button>
+                    <div class="content-2-B-Mid">
+                       <button></button>
+                       <button onclick="ObservitoryBMid()">observitory</button>
+                       <button onclick="GlassTubeBMid()">glass Ltube</button>
+                       <button onclick="GlassLtubeBMid()">glass Ltube </button>
+                    </div>
+                </div> 
+                <div class="dropdown-3-B-Mid">
+                    <button class="Function-B-Mid">function</button>
+                    <div class="content-3-B-Mid">
+                       <button onclick="HatchBMid()">hatch</button>
+                       <button onclick="MoonPoolBMid()">moon pool</button>
+                       <button onclick="RienforcmentBMid()">hull rienforcment</button>
+                       
+                    </div>
+                </div>
+                
+                </div>
+    
+    
+            
+                <div class="2x4">
+                    <img   src="#" id="blank-7" height="150px" width="150px">
+                    
+                    <div class="dropdown-C-Mid">
+                        <button class="Rooms-C-Mid">rooms</button>
+                        <div class="content-C-Mid">
+                            <button onclick="BasicRoomCMid()">basic room</button>
+                            <button onclick="LargeRoomCMid()">large room</button>
+                            <button onclick="ScannerRoomCMid()">scanner room</button>
+                        </div>
+                    </div> 
+                    <div class="dropdown-1-C-Mid">
+                        <button class="Tubes-C-Mid">tube</button>
+                        <div class="content-1-C-Mid">
+                           <button onclick="BasicTubeCMid()"> basic tube</button>
+                           <button onclick="TtubeCMid()">T tube </button>
+                           <button onclick="LtubeCMid()">L tube</button>
+                           <button onclick="XtubeCMid()">X tube</button> 
+                        </div>
+                    </div> 
+                    <div class="dropdown-2-C-Mid">
+                        <button class="Glass-C-Mid">glass</button>
+                        <div class="content-2-C-Mid">
+                           <button></button>
+                           <button onclick="ObservitoryCMid()">observitory</button>
+                           <button onclick="GlassTubeCMid()">glass Ltube</button>
+                           <button onclick="GlassLtubeCMid()">glass Ltube </button>
+                        </div>
+                    </div> 
+                    <div class="dropdown-3-C-Mid">
+                        <button class="Function-C-Mid">function</button>
+                        <div class="content-3-C-Mid">
+                           <button onclick="HatchCMid()">hatch</button>
+                           <button onclick="MoonPoolCMid()">moon pool</button>
+                           <button onclick="RienforcmentCMid()">hull rienforcment</button>
+                           
+                        </div>
+                    </div>
+                    
+                    </div>
+    
+    </div>
+
+
+
+    <scrip src="JavaScript\IconFunctionThree.js"></script>
+
+        <div class="RowThree">
+        <div class="3x1">
+        <img   src="#" id="blank-8" height="150px" width="150px">
+        
+        <div class="dropdown-Inn">
+            <button class="Rooms-Inn">rooms</button>
+            <div class="content-Inn">
+                <button onclick="BasicRoomInn()">basic room</button>
+                <button onclick="LargeRoomInn()">large room</button>
+                <button onclick="ScannerRoomInn()">scanner room</button>
+            </div>
+        </div> 
+        <div class="dropdown-1-Inn">
+            <button class="Tubes-Inn">tube</button>
+            <div class="content-1-Inn">
+               <button onclick="BasicTubeInn()"> basic tube</button>
+               <button onclick="TtubeInn()">T tube </button>
+               <button onclick="LtubeInn()">L tube</button>
+               <button onclick="XtubeInn()">X tube</button> 
+            </div>
+        </div> 
+        <div class="dropdown-2-Inn">
+            <button class="Glass-Inn">glass</button>
+            <div class="content-2-Inn">
+               <button></button>
+               <button onclick="ObservitoryInn()">observitory</button>
+               <button onclick="GlassTubeInn()">glass Ltube</button>
+               <button onclick="GlassLtubeInn()">glass Ltube </button>
+            </div>
+        </div> 
+        <div class="dropdown-3-Inn">
+            <button class="Function-Inn">function</button>
+            <div class="content-3-Inn">
+               <button onclick="HatchInn()">hatch</button>
+               <button onclick="MoonPoolInn()">moon pool</button>
+               <button onclick="RienforcmentInn()">hull rienforcment</button>
+               
+            </div>
+        </div>
+        
+        
+            </div>
+        
+        
+            
+            <div class="3x2">
+                <img   src="#" id="blank-9" height="150px" width="150px">
+                
+                <div class="dropdown-A-Inn">
+                    <button class="Rooms-A-Inn">rooms</button>
+                    <div class="content-A-Inn">
+                        <button onclick="BasicRoomAInn()">basic room</button>
+                        <button onclick="LargeRoomAInn()">large room</button>
+                        <button onclick="ScannerRoomAInn()">scanner room</button>
+                    </div>
+                </div> 
+                <div class="dropdown-1-A-Inn">
+                    <button class="Tubes-A-Inn">tube</button>
+                    <div class="content-1-A-Inn">
+                       <button onclick="BasicTubeA_ZInn()"> basic tube</button>
+                       <button onclick="TtubeAInn()">T tube </button>
+                       <button onclick="LtubeAInn()">L tube</button>
+                       <button onclick="XtubeAInn()">X tube</button> 
+                    </div>
+                </div> 
+                <div class="dropdown-2-A-Inn">
+                    <button class="Glass-A-Inn">glass</button>
+                    <div class="content-2-A-Inn">
+                       <button></button>
+                       <button onclick="ObservitoryAInn()">observitory</button>
+                       <button onclick="GlassTubeAInn()">glass Ltube</button>
+                       <button onclick="GlassLtubeAInn()">glass Ltube </button>
+                    </div>
+                </div> 
+                <div class="dropdown-3-A-Inn">
+                    <button class="Function-A-Inn">function</button>
+                    <div class="content-3-A-Inn">
+                       <button onclick="HatchAInn()">hatch</button>
+                       <button onclick="MoonPoolAInn()">moon pool</button>
+                       <button onclick="RienforcmentAInn()">hull rienforcment</button>
+                       
+                    </div>
+                </div>
+                
+                </div>
+                <div class="3x3">
+                    <img   src="#" id="blank-10" height="150px" width="150px">
+                    
+                    <div class="dropdown-B-Inn">
+                        <button class="Rooms-B-Inn">rooms</button>
+                        <div class="content-B-Inn">
+                            <button onclick="BasicRoomBInn()">basic room</button>
+                            <button onclick="LargeRoomBInn()">large room</button>
+                            <button onclick="ScannerRoomBInn()">scanner room</button>
+                        </div>
+                    </div> 
+                    <div class="dropdown-1-B-Inn">
+                        <button class="Tubes-B-Inn">tube</button>
+                        <div class="content-1-B-Inn">
+                           <button onclick="BasicTubeBInn()"> basic tube</button>
+                           <button onclick="TtubeBInn()">T tube </button>
+                           <button onclick="LtubeBInn()">L tube</button>
+                           <button onclick="XtubeBInn()">X tube</button> 
+                        </div>
+                    </div> 
+                    <div class="dropdown-2-B-Inn">
+                        <button class="Glass-B-Inn">glass</button>
+                        <div class="content-2-B-Inn">
+                           <button></button>
+                           <button onclick="ObservitoryBInn()">observitory</button>
+                           <button onclick="GlassTubeBInn()">glass Ltube</button>
+                           <button onclick="GlassLtubeBInn()">glass Ltube </button>
+                        </div>
+                    </div> 
+                    <div class="dropdown-3-B-Inn">
+                        <button class="Function-B-Inn">function</button>
+                        <div class="content-3-B-Inn">
+                           <button onclick="HatchBInn()">hatch</button>
+                           <button onclick="MoonPoolBInn()">moon pool</button>
+                           <button onclick="RienforcmentBInn()">hull rienforcment</button>
+                           
+                        </div>
+                    </div>
+                    
+                    </div>
+        
+        
+                
+                    <div class="3x4">
+                        <img   src="#" id="blank-11" height="150px" width="150px">
+                        
+                        <div class="dropdown-C-Inn">
+                            <button class="Rooms-C-Inn">rooms</button>
+                            <div class="content-C-Inn">
+                                <button onclick="BasicRoomCInn()">basic room</button>
+                                <button onclick="LargeRoomCInn()">large room</button>
+                                <button onclick="ScannerRoomCInn()">scanner room</button>
+                            </div>
+                        </div> 
+                        <div class="dropdown-1-C-Inn">
+                            <button class="Tubes-C-Inn">tube</button>
+                            <div class="content-1-C-Inn">
+                               <button onclick="BasicTubeCInn()"> basic tube</button>
+                               <button onclick="TtubeCInn()">T tube </button>
+                               <button onclick="LtubeCInn()">L tube</button>
+                               <button onclick="XtubeCInn()">X tube</button> 
+                            </div>
+                        </div> 
+                        <div class="dropdown-2-C-Inn">
+                            <button class="Glass-C-Inn">glass</button>
+                            <div class="content-2-C-Inn">
+                               <button></button>
+                               <button onclick="ObservitoryCInn()">observitory</button>
+                               <button onclick="GlassTubeCInn()">glass Ltube</button>
+                               <button onclick="GlassLtubeCInn()">glass Ltube </button>
+                            </div>
+                        </div> 
+                        <div class="dropdown-3-C-Inn">
+                            <button class="Function-C-Inn">function</button>
+                            <div class="content-3-C-Inn">
+                               <button onclick="HatchCInn()">hatch</button>
+                               <button onclick="MoonPoolCInn()">moon pool</button>
+                               <button onclick="RienforcmentCInn()">hull rienforcment</button>
+                               
+                            </div>
+                        </div>
+                        
+                        </div> 
+
+                        </div>
+
+                        <scrip src="JavaScript\IconFunctionFour.js"></script>
+
+                            <div class="RowFour">
+                            <div class="4x1">
+                            <img   src="#" id="blank-12" height="150px" width="150px">
+                            
+                            <div class="dropdown-Out">
+                                <button class="Rooms-Out">rooms</button>
+                                <div class="content-Out">
+                                    <button onclick="BasicRoomOut()">basic room</button>
+                                    <button onclick="LargeRoomOut()">large room</button>
+                                    <button onclick="ScannerRoomOut()">scanner room</button>
+                                </div>
+                            </div> 
+                            <div class="dropdown-1-Out">
+                                <button class="Tubes-Out">tube</button>
+                                <div class="content-1-Out">
+                                   <button onclick="BasicTubeOut()"> basic tube</button>
+                                   <button onclick="TtubeOut()">T tube </button>
+                                   <button onclick="LtubeOut()">L tube</button>
+                                   <button onclick="XtubeOut()">X tube</button> 
+                                </div>
+                            </div> 
+                            <div class="dropdown-2-Out">
+                                <button class="Glass-Out">glass</button>
+                                <div class="content-2-Out">
+                                   <button></button>
+                                   <button onclick="ObservitoryOut()">observitory</button>
+                                   <button onclick="GlassTubeOut()">glass Ltube</button>
+                                   <button onclick="GlassLtubeOut()">glass Ltube </button>
+                                </div>
+                            </div> 
+                            <div class="dropdown-3-Out">
+                                <button class="Function-Out">function</button>
+                                <div class="content-3-Out">
+                                   <button onclick="HatchOut()">hatch</button>
+                                   <button onclick="MoonPoolOut()">moon pool</button>
+                                   <button onclick="RienforcmentOut()">hull rienforcment</button>
+                                   
+                                </div>
+                            </div>
+                            
+                            
+                                </div>
+                            
+                            
+                                
+                                <div class="4x2">
+                                    <img   src="#" id="blank-13" height="150px" width="150px">
+                                    
+                                    <div class="dropdown-A-Out">
+                                        <button class="Rooms-A-Out">rooms</button>
+                                        <div class="content-A-Out">
+                                            <button onclick="BasicRoomAOut()">basic room</button>
+                                            <button onclick="LargeRoomAOut()">large room</button>
+                                            <button onclick="ScannerRoomAOut()">scanner room</button>
+                                        </div>
+                                    </div> 
+                                    <div class="dropdown-1-A-Out">
+                                        <button class="Tubes-A-Out">tube</button>
+                                        <div class="content-1-A-Out">
+                                           <button onclick="BasicATubeAOut()"> basic tube</button>
+                                           <button onclick="TtubeAOut()">T tube </button>
+                                           <button onclick="LtubeAOut()">L tube</button>
+                                           <button onclick="XtubeAOut()">X tube</button> 
+                                        </div>
+                                    </div> 
+                                    <div class="dropdown-2-A-Out">
+                                        <button class="Glass-A-Out">glass</button>
+                                        <div class="content-2-A-Out">
+                                           <button></button>
+                                           <button onclick="ObservitoryAOut()">observitory</button>
+                                           <button onclick="GlassTubeAOut()">glass Ltube</button>
+                                           <button onclick="GlassLtubeAOut()">glass Ltube </button>
+                                        </div>
+                                    </div> 
+                                    <div class="dropdown-3-A-Out">
+                                        <button class="Function-A-Out">function</button>
+                                        <div class="content-3-A-Out">
+                                           <button onclick="HatchAOut()">hatch</button>
+                                           <button onclick="MoonPoolAOut()">moon pool</button>
+                                           <button onclick="RienforcmentAOut()">hull rienforcment</button>
+                                           
+                                        </div>
+                                    </div>
+                                    
+                                    </div>
+                                    <div class="$x3">
+                                        <img   src="#" id="blank-14" height="150px" width="150px">
+                                        
+                                        <div class="dropdown-B-Out">
+                                            <button class="Rooms-B-Out">rooms</button>
+                                            <div class="content-B-Out">
+                                                <button onclick="BasicRoomBOut()">basic room</button>
+                                                <button onclick="LargeRoomBOut()">large room</button>
+                                                <button onclick="ScannerRoomBOut()">scanner room</button>
+                                            </div>
+                                        </div> 
+                                        <div class="dropdown-1-B-Out">
+                                            <button class="Tubes-B-Out">tube</button>
+                                            <div class="content-1-B-Out">
+                                               <button onclick="BasicTubeBOut()"> basic tube</button>
+                                               <button onclick="TtubeBOut()">T tube </button>
+                                               <button onclick="LtubeBOut()">L tube</button>
+                                               <button onclick="XtubeBOut()">X tube</button> 
+                                            </div>
+                                        </div> 
+                                        <div class="dropdown-2-B-Out">
+                                            <button class="Glass-B-Out">glass</button>
+                                            <div class="content-2-B-Out">
+                                               <button></button>
+                                               <button onclick="ObservitoryBOut()">observitory</button>
+                                               <button onclick="GlassTubeBOut()">glass Ltube</button>
+                                               <button onclick="GlassLtubeBOut()">glass Ltube </button>
+                                            </div>
+                                        </div> 
+                                        <div class="dropdown-3-B-Out">
+                                            <button class="Function-B-Out">function</button>
+                                            <div class="content-3-B-Out">
+                                               <button onclick="HatchBOut()">hatch</button>
+                                               <button onclick="MoonPoolBOut()">moon pool</button>
+                                               <button onclick="RienforcmentBOut()">hull rienforcment</button>
+                                               
+                                            </div>
+                                        </div>
+                                        
+                                        </div>
+                            
+                            
+                                    
+                                        <div class="4x4">
+                                            <img   src="#" id="blank-15" height="150px" width="150px">
+                                            
+                                            <div class="dropdown-C-Out">
+                                                <button class="Rooms-C-Out">rooms</button>
+                                                <div class="content-C-Out">
+                                                    <button onclick="BasicRoomCOut()">basic room</button>
+                                                    <button onclick="LargeRoomCOut()">large room</button>
+                                                    <button onclick="ScannerRoomCOut()">scanner room</button>
+                                                </div>
+                                            </div> 
+                                            <div class="dropdown-1-C-Out">
+                                                <button class="Tubes-C-Out">tube</button>
+                                                <div class="content-1-C-Out">
+                                                   <button onclick="BasicTubeCOut()"> basic tube</button>
+                                                   <button onclick="TtubeCOut()">T tube </button>
+                                                   <button onclick="LtubeCOut()">L tube</button>
+                                                   <button onclick="XtubeCOut()">X tube</button> 
+                                                </div>
+                                            </div> 
+                                            <div class="dropdown-2-C-Out">
+                                                <button class="Glass-C-Out">glass</button>
+                                                <div class="content-2-C-Out">
+                                                   <button></button>
+                                                   <button onclick="ObservitoryCOut()">observitory</button>
+                                                   <button onclick="GlassTubeCOut()">glass Ltube</button>
+                                                   <button onclick="GlassLtubeCOut()">glass Ltube </button>
+                                                </div>
+                                            </div> 
+                                            <div class="dropdown-3-C-Out">
+                                                <button class="Function-C-Out">function</button>
+                                                <div class="content-3-C-Out">
+                                                   <button onclick="HatchCOut()">hatch</button>
+                                                   <button onclick="MoonPoolCOut()">moon pool</button>
+                                                   <button onclick="RienforcmentCOut()">hull rienforcment</button>
+                                                   
+                                                </div>
+                                            </div>
